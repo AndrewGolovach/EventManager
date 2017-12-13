@@ -1,8 +1,8 @@
-from event_manager.collector import Collector
+from eventmanager.event_manager import EventManager
 
-path = "actions.test_actions"
+path = "actions"
 
-collector = Collector(path)
-actions = collector.collect()
-
-pass
+manager = EventManager(path)
+for i in range(11):
+    print i
+    manager.notify(object)

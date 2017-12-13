@@ -1,6 +1,6 @@
 import functools
 
-from event_manager.occurrence_generators import every_event
+from eventmanager.occurrence_generators import every_event
 
 
 class ActionDecorator(object):
